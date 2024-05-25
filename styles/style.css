@@ -56,7 +56,7 @@ header > p {
     font-size: 1.2em;
     max-width: 31em;
     margin: auto;
-    margin-bottom: 20px;
+    padding-bottom: 30px;
     padding-left: 0.62em;
     padding-right: 0.62em;
     text-shadow: 0.05em 0.05em 0em rgba(0, 0, 0, 0.411);
@@ -69,7 +69,7 @@ nav {
 }
 
 nav > a {
-    color: white;
+    color: var(--cor1);
     padding: 0.62em; /*coloca uma distancia de 10px de cada link*/
     text-decoration: none; /*tira o underline*/
    font-weight: bold;   /* coloca em negrito */
